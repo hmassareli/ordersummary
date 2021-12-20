@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+  <main class="container" id="main-container">                                                                    
+    <div class="card" id="card">                                                                                                 
+      <div id="card-image"><img src="./images/illustration-hero.svg"></div>
+      <div id="card-content">
+        <div id="title-container">
+          <h1 id="title">Order Summary</h1>
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+        <div id="plan-option">
+          <div id="plan-logo"><img src="./images/icon-music.svg"></div>
+          <div id="plan-description">
+            <h2>Annual Plan</h2>
+            <p>$59,99/year</p>
+          </div>
+          <div id="plan-change-option"><a href="#" id="plan-change-option">Change</a></div>
+        </div>
+        <div id="buttons">
+          <button>Prooced to Payment</button>
+          <a href="#" id="cancel-order">Cancel Order</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+<!-- Primeiramente fazer toda a carcaça do HTML, pra depois ir para o CSS. -->
+<!-- É uma div, só que com outro nome. (Vai guardar o conteúdo principal do documento de forma semântica) -->
+<!-- A div é uma caixa que la no css eu consigo dar propriedades para ela. -->
+<!-- .class - Posso usar a mesma classe para vários elementos. Dessa forma, no CSS, vou colocar propriedades em todos os elementos que possuir a mesma classe. -->
+<!-- #id    - São únicos, cada elemento pode ter apenas um ID. No CSS, o mesmo vai me ajudar a dar propriedades únicas para tal elemento. -->
+
+<!-- Supondo que eu faça um site que vai ter vários tipos de botões, 
+só que todos os botões idependentes de qual função ele tenha, vão ser todos arredondados, nesse caso, 
+posso colocar uma classe dentro desses botões, que vai ser a classe button. Ex: ( <button class="button"></button> )
+E ai essa class vai fazer com que todos os botões fiquem arredondados, quando eu selecionar ela no CSS. -->
+
+<!-- Também, posso fazer um button receber uma class para ele poder herdar todos os atributos dos botões, 
+e também posso colocar um Id nele, ai esse Id vai me ajduar la no CSS a colocar outras propriedades que eu quero 
+só para aquele botão de submit por exemplo. -->
+
